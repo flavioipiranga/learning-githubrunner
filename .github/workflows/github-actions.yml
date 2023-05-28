@@ -1,4 +1,4 @@
-name: assignment-autotest-test
+name: learning-githubrunner
 
 on:
     workflow_dispatch:
