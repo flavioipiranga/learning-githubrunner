@@ -6,6 +6,8 @@ on:
 jobs:
   learning-test:
         container: cuaesd/aesd-autotest:unit-test
+          volumes:
+            - my_docker_volume:/volume_mount
         runs-on: self-hosted
         steps:
           - uses: actions/checkout@v2
