@@ -6,6 +6,7 @@ on:
 jobs:
   learning-test:
         container:
+          image: learning
           volumes:
             - /tmp/aeld:/debug
         runs-on: self-hosted
