@@ -17,5 +17,4 @@ jobs:
           - name: Create dir
             run: mkdir newdir
           - name: List volumens created
-            run: ls /
-        
+            run: ls /; ls /debug        
